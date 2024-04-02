@@ -7,3 +7,4 @@ class Product(models.Model):
     price = models.IntegerField('Price Field', max_lenght=4)
     description = models.CharField('product Name', max_lenght=120)
     owner=models.CharField('Owner Name', max_lenght=120)
+    availability = models.BigIntegerField('disponibilità', max_lenght=120)
