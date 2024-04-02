@@ -3,7 +3,7 @@ import "./Cerd.css";
 //import { Model } from "../Modal/Modal";
 import Modal from 'react-modal';
     
-const Card = () =>{
+const Card = ({/*image, title, description, price*/}) =>{
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
