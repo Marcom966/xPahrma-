@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import "./checkout.css";
 import Link from "next/link";
@@ -10,8 +10,8 @@ function Checkout (){
     const [val3, setVal3] = useState('');
     const [val4, setVal4] = useState('');
     const searchParams = useSearchParams();
-    const search = searchParams.get('name');
-    const price = searchParams.get('price');
+    let search = searchParams.get('name');
+    let price = searchParams.get('price');
     const change1 = (event: React.ChangeEvent<HTMLInputElement>) =>{
         setVal(event.target.value);
     }
@@ -24,7 +24,11 @@ function Checkout (){
     const change4 = (event: React.ChangeEvent<HTMLInputElement>) =>{
         setVal4(event.target.value);
     }
-
+    /*if(search==''&&price==''){
+        search = localStorage.getItem('name');
+        price = localStorage.getItem('price');
+    }*/
+  
 
     return (
         <center>

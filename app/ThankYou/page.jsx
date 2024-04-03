@@ -12,6 +12,11 @@ const ThankYou = () =>{
     const CAP = searchParams.get('CAP');
     const città = searchParams.get('città');
     const prodotto = searchParams.get('prodotto');
+    /*if(Via==''||Ncivico==''||CAP==''||città==''){
+        window.alert('Non hai inserito le credenziali di spedizione');
+        router.push('/Checkout');
+        return null;
+    }*/
 
 
     return(

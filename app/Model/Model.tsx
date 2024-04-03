@@ -7,6 +7,10 @@ import './Model.css';
 export function Model({object}:{object: Object}){
     let arrayFromObj: any[] = []
     arrayFromObj = Object.values(object);
+    const localstorage = () =>{
+        localStorage.setItem('name', arrayFromObj[0]);
+        localStorage.setItem('price', arrayFromObj[3]);
+    }
 
     return(
         <div className="containerModal" id="modal">
@@ -20,7 +24,7 @@ export function Model({object}:{object: Object}){
                 <p>Disponibilità: {arrayFromObj[6]} Pezzi/o</p>
             </center>
             <center>
-            <Link className="link" href={{pathname:'/Checkout', query: {name: arrayFromObj[0], price: arrayFromObj[3]}}}>
+            <Link className="link" href={{pathname:'/Checkout', query: {name: arrayFromObj[0], price: arrayFromObj[3]}}} onClick={localstorage}>
                 Acquista questo prodotto
             </Link>
             </center>
