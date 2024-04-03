@@ -19,7 +19,7 @@ export function Model({object}:{object: Object}){
                 <p>Caricato il: {arrayFromObj[2]}</p>
                 <p>Disponibilità: {arrayFromObj[6]}</p>
             </center>
-            <Link className="link" href={{pathname:'/Checkout', query: {name: arrayFromObj[0]}}}>
+            <Link className="link" href={{pathname:'/Checkout', query: {name: arrayFromObj[0], price: arrayFromObj[3]}}}>
                 Acquista questo prodotto
             </Link>
         </div>
