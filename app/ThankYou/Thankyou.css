@@ -1,0 +1,19 @@
+.buttonThanks{
+    position: absolute;
+    top: 150px;
+    left: 783px;
+    height: 35px;
+    width: 400px;
+    border: 0.1rem solid white;
+    border-radius: 25px;
+    font-size: 22px;
+}
+.buttonThanks:hover{
+    box-shadow: 2px 2px 2px white;
+}
+.bigH1{
+    position: absolute;
+    left: 833px;
+    top: 44px;
+    font-size: 30px;
+}

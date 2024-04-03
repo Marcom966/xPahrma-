@@ -12,10 +12,10 @@ export default function Home(){
         <h1 className='title'>Giardinaggio</h1>
       </div>
     <div className="row" id="rowButtons">
-        </div>
         <div className='containerHome'>
           <BackEndFetch/>
         </div>
+      </div>
     </div>
   )
 }

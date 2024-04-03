@@ -1,0 +1,18 @@
+.containerModal{
+    background-color: "black";
+}
+.link{
+    position: absolute;
+    top: 191px;
+    width: 306px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0.1rem solid white;
+    border-radius: 25px;
+    left: 815px;
+    height: 35px;
+    
+}
+.link:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios, * as others from 'axios';
 import Row from 'react-bootstrap/Row';
 import Card from "../Card/Card";
+import './backEndFetch.css';
 
 
 const backEndFetch = () =>{
@@ -20,7 +21,7 @@ const backEndFetch = () =>{
    
     return(
         <div className="row-wrapper" style={{marginRight: "400px"}}>
-            <Row style={{width: "200rem", height: "20rem", display: "inline", marginRight: "400px"}}>
+            <Row className="rowB" style={{width: "200rem", height: "20rem", display: "inline", marginRight: "400px"}}>
                 {Array.isArray(product) ?
                 product.map((prod: any, index)=>{
                     return <Card image={prod.image} title={prod.name} description={prod.description} price={prod.price} object={prod} key={index}/>

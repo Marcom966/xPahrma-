@@ -2,6 +2,7 @@
 import React from "react";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+import "./checkout.css";
 
 function Checkout (){
     const searchParams = useSearchParams();
@@ -10,13 +11,15 @@ function Checkout (){
     const route = useRouter();    
 
     return (
+        <center>
             <div className="complimenti">
                 <h1 className="h1">
-                    Stai acquistando {search}
+                    Stai acquistando: {search}
                 </h1>
                 <p className="pCheckout">Totale: {price}€</p>
-                <button className="button" type="button" onClick={()=>route.push('/ThankYou')}>Acquista</button>
+                <button className="buttonCheckout" type="button" onClick={()=>route.push('/ThankYou')}>Acquista</button>
             </div>
-            );
+        </center>
+        );
 }
 export default Checkout

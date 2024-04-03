@@ -1,0 +1,19 @@
+.price{
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.containerModall{
+    background-color: black;
+    height: 100%;
+}
+.buttonCard{
+    position: absolute;
+    top: -8px;
+    right: 1892px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}

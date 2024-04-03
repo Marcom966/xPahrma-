@@ -1,0 +1,26 @@
+.buttonCheckout{
+    top: 187px;
+    left: 881px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0.1rem solid white;
+    height: 35px;
+    width: 148px;
+    border-radius: 25px;
+}
+.buttonCheckout:hover{
+    box-shadow: 2px 2px 2px white;
+}
+.h1{
+    top: 40px;
+    left: 840px;
+    position: absolute;
+    font-size: 18px;
+}
+.pCheckout{
+    top: 100px;
+    left: 910px;
+    position: absolute;
+    font-size: 18px;
+}

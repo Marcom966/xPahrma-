@@ -1,0 +1,14 @@
+.rowB{
+    position: absolute;
+    top: 200px;
+}
+.containerCerd2{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    width: 425px;
+    height: 204px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}

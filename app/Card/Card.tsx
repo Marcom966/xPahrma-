@@ -1,6 +1,7 @@
 import React, { useCallback, useState, Component, useEffect } from "react";
 import { Model } from "../Model/Model";
 import Modal from 'react-modal';
+import './Card.css';
     
 const Card = ({ object, image, title, description, price}:{object: Object, image: any, title: any, description: any, price: any}) =>{
 
@@ -14,19 +15,20 @@ const Card = ({ object, image, title, description, price}:{object: Object, image
         setModalIsOpen(false)
     }
 
+
         
     
     return(
 
         <div className="containerCerd2">
-            <img src={image} alt={title}></img>
+            <img src={image} alt={"Immagine non disponibile"}></img>
             <h3>{title}</h3>
             <p id="pmodal">{description}</p>
-            <p className="price">{price}</p>
-            <button type="button" style={{borderRadius: "10px", backgroundColor: "transparent", boxShadow: "3px 3px 3px 3px #ffffff", color: "white"}} onClick={setModalIsOpenToTrue}>Più Dettagli</button>
+            <p className="price">{price}€</p>
+            <button type="button" style={{borderRadius: "10px", backgroundColor: "transparent", boxShadow: "1px 1px 1px #ffffff", color: "white", width: "100px"}} onClick={setModalIsOpenToTrue}>Più Dettagli</button>
 
             <Modal className="containerModall" isOpen={modalIsOpen} ariaHideApp={false}>
-                <button onClick={setModalIsOpenToFalse}>x</button>
+                <button className="buttonCard" onClick={setModalIsOpenToFalse}>x</button>
                 <Model object={object}/>
             </Modal>
         </div>
