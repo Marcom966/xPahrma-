@@ -1,9 +1,12 @@
+"use client"
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 
 export function Model({object}:{object: Object}){
     let arrayFromObj: any[] = []
     arrayFromObj = Object.values(object);
+
     
     return(
         <div className="containerModal" id="modal">
@@ -16,6 +19,9 @@ export function Model({object}:{object: Object}){
                 <p>Caricato il: {arrayFromObj[2]}</p>
                 <p>Disponibilità: {arrayFromObj[6]}</p>
             </center>
+            <Link className="link" href={{pathname:'/Checkout', query: {name: arrayFromObj[0]}}}>
+                Acquista questo prodotto
+            </Link>
         </div>
     )
 }

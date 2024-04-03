@@ -1,7 +1,6 @@
 import React, { useCallback, useState, Component, useEffect } from "react";
 import { Model } from "../Model/Model";
 import Modal from 'react-modal';
-import axios from "axios";
     
 const Card = ({ object, image, title, description, price}:{object: Object, image: any, title: any, description: any, price: any}) =>{
 
