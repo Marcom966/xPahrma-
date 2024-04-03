@@ -1,7 +1,7 @@
 .buttonThanks{
     position: absolute;
-    top: 150px;
-    left: 783px;
+    top: 256px;
+    left: 759px;
     height: 35px;
     width: 400px;
     border: 0.1rem solid white;
@@ -13,7 +13,32 @@
 }
 .bigH1{
     position: absolute;
-    left: 833px;
+    left: 813px;
     top: 44px;
     font-size: 30px;
+}
+.acquisto{
+    top: 89px;
+    position: absolute;
+    left: 857px;
+}
+.acquisto2{
+    top: 122px;
+    position: absolute;
+    left: 912px;
+}
+.acquisto3{
+    top: 157px;
+    position: absolute;
+    left: 948px;
+}
+.acquisto4{
+    top: 190px;
+    position: absolute;
+    left: 940px;
+}
+.acquisto5{
+    top: 218px;
+    position: absolute;
+    left: 891px;
 }

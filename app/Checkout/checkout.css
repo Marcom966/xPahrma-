@@ -1,5 +1,5 @@
 .buttonCheckout{
-    top: 187px;
+    top: 455px;
     left: 881px;
     position: absolute;
     font-weight: bold;
@@ -13,14 +13,84 @@
     box-shadow: 2px 2px 2px white;
 }
 .h1{
-    top: 40px;
-    left: 840px;
+    top: 22px;
+    left: 851px;
     position: absolute;
     font-size: 18px;
 }
 .pCheckout{
-    top: 100px;
+    top: 415px;
     left: 910px;
     position: absolute;
     font-size: 18px;
+}
+.indirizzo{
+    top: 52px;
+    left:883px;
+    position: absolute;
+}
+.input1{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 256px;
+    height: 31px;
+    text-align: center;
+    position: absolute;
+    top: 106px;
+    left: 832px;
+}
+
+.input2{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 256px;
+    height: 31px;
+    text-align: center;
+    position: absolute;
+    top: 188px;
+    left: 832px;
+}
+.input3{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 256px;
+    height: 31px;
+    text-align: center;
+    position: absolute;
+    top: 279px;
+    left: 832px;
+}
+.input4{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 256px;
+    height: 31px;
+    text-align: center;
+    position: absolute;
+    top: 369px;
+    left: 832px;
+}
+.inserisci{
+    position: absolute;
+    top: 78px;
+    left: 948px;
+}
+.inserisci2{
+    position: absolute;
+    top: 156px;
+    left: 920px;
+}
+.inserisci3{
+    position: absolute;
+    top: 247px;
+    left: 937px;
+}
+.inserisci4{
+    position: absolute;
+    top: 336px;
+    left: 932px;
 }
