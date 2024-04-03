@@ -15,18 +15,15 @@ const backEndFetch = () =>{
         }
         axiosFunc(Url);
     },[]);
-    console.log(product);
     
-    
-        
+   
     return(
         <div className="row-wrapper" style={{marginRight: "400px"}}>
             <Row style={{width: "200rem", height: "20rem", display: "inline", marginRight: "400px"}}>
-                {/*{Array.isArray(product) ?
-                product.map((prod, index)=>{
-                    return <Card image={prod} year={movie.Year} image={movie.Poster} key={index}/>
+                {Array.isArray(product) ?
+                product.map((prod: any, index)=>{
+                    return <Card image={prod.image} title={prod.name} description={prod.description} price={prod.price} object={prod} key={index}/>
                 }): null}
-            */}
             </Row>
         </div>
     )

@@ -9,7 +9,7 @@ export default function Home(){
   return (
     <div className="App">
       <div className='container'>
-        <h1 className='title'>Movie Galaxy</h1>
+        <h1 className='title'>Giardinaggio</h1>
       </div>
     <div className="row" id="rowButtons">
         </div>
