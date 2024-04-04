@@ -1,26 +1,21 @@
-.title{
+.h1Istru{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: bold;
     font-size: 80px;
     text-align: center;
     position: absolute;
-    left: 679px;
+    left: 476px;
 }
-.row{
-    width: 1886px;
-    height: 382px;
+.pIstru{
+    top: 210px;
+    left: 6px;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
 }
-.containerHome{
-    height: 382px;
-    width: 1886px;
-    border: 20px white;
-}
-.row-wrapper{
-    width: 1886px;
-}
-.buttonIstruzioni{
-    top: 455px;
-    left: 781px;
+.buttonBack{
+    top: 297px;
+    left: 844px;
     position: absolute;
     font-weight: bold;
     font-size: 20px;
